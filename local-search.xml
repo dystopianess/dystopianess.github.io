@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title></title>
+    <link href="/2026/03/17/%E6%9C%89%E7%94%A8%E7%9A%84%E7%A8%8B%E5%BA%8F/"/>
+    <url>/2026/03/17/%E6%9C%89%E7%94%A8%E7%9A%84%E7%A8%8B%E5%BA%8F/</url>
+    
+    <content type="html"><![CDATA[<p>npx hexo clean; and npx hexo g; and npx hexo s -p 5001<br>npx hexo g -d</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>这是我的第一篇博客</title>
     <link href="/2026/03/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <url>/2026/03/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>

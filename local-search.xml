@@ -4,11 +4,24 @@
   
   
   <entry>
+    <title></title>
+    <link href="/2026/04/12/%E9%9A%8F%E7%AC%94/"/>
+    <url>/2026/04/12/%E9%9A%8F%E7%AC%94/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>关于多元函数的连续性与可微性</title>
     <link href="/2026/03/19/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6/"/>
     <url>/2026/03/19/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6/</url>
     
-    <content type="html"><![CDATA[<h1 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h1><h2 id="高等数学"><a href="#高等数学" class="headerlink" title="高等数学"></a>高等数学</h2><p>现在我们讨论多元函数的性质强度。可以发现，多元函数在诸多性质上与一元函数有不同之处。比如，一元函数的可导性可以推断出连续性，而多元函数在某一点的偏导函数的存在并不能推断出该点的连续性。在多元函数中，全微分存在的强度比偏导数要高。</p><p>想要判断一个多元函数是否可微，通常需要经过如下步骤：</p><ol><li><p><strong>判断该点是否连续</strong><br>即判断该点的极限是否存在，并且与 $f(x_0, y_0)$ 相等：<br>$$\lim_{(x,y) \to (x_0, y_0)} f(x, y) &#x3D; f(x_0, y_0)$$</p></li><li><p><strong>利用定义判断该点的偏导数是否存在</strong><br>$$f_x(x_0, y_0) &#x3D; \lim_{\Delta x \to 0} \frac{f(x_0 + \Delta x, y_0) - f(x_0, y_0)}{\Delta x}$$<br>$$f_y(x_0, y_0) &#x3D; \lim_{\Delta y \to 0} \frac{f(x_0, y_0 + \Delta y) - f(x_0, y_0)}{\Delta y}$$</p></li><li><p><strong>最后验证全微分定义式</strong><br>$$\lim_{(\Delta x, \Delta y) \to (0,0)} \frac{f(x_0 + \Delta x, y_0 + \Delta y) - f(x_0, y_0) - [f_x \Delta x + f_y \Delta y]}{\sqrt{\Delta x^2 + \Delta y^2}} &#x3D; 0$$<br>只有这个极限等于零时，我们才能最终判断函数在该点可微。</p></li><li><p><strong>（快速）充分条件定理</strong><br>如果偏导数 $f_x$ 和 $f_y$ 在该点的<strong>邻域内存在</strong>，且在<strong>该点连续</strong>，那么函数在该点一定可微。</p></li></ol><hr><h3 id="性质强度排序（从弱到强）"><a href="#性质强度排序（从弱到强）" class="headerlink" title="性质强度排序（从弱到强）"></a>性质强度排序（从弱到强）</h3><ul><li><strong>Lv.1 偏导数存在</strong>：只有十字路口是通的，其他地方可能是悬崖。</li><li><strong>Lv.2 连续</strong>：四面八方都连在一起，但可能有很多“尖角”。</li><li><strong>Lv.3 可微（全微分存在）</strong>：存在一个平滑的切平面，这是真正的“可导”。</li><li><strong>Lv.4 偏导数连续</strong>：不仅自己平滑，周围的坡度变化也非常丝滑。</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h1><h2 id="高等数学"><a href="#高等数学" class="headerlink" title="高等数学"></a>高等数学</h2><p>现在我们讨论多元函数的性质强度。可以发现，多元函数在诸多性质上与一元函数有不同之处。比如，一元函数的可导性可以推断出连续性，而多元函数在某一点的偏导函数的存在并不能推断出该点的连续性。在多元函数中，全微分存在的强度比偏导数要高。</p><p>想要判断一个多元函数是否可微，通常需要经过如下步骤：</p><ol><li><p><strong>判断该点是否连续</strong><br>即判断该点的极限是否存在，并且与 $f(x_0, y_0)$ 相等：<br>$$\lim_{(x,y) \to (x_0, y_0)} f(x, y) &#x3D; f(x_0, y_0)$$</p></li><li><p><strong>利用定义判断该点的偏导数是否存在</strong><br>$$f_x(x_0, y_0) &#x3D; \lim_{\Delta x \to 0} \frac{f(x_0 + \Delta x, y_0) - f(x_0, y_0)}{\Delta x}$$<br>$$f_y(x_0, y_0) &#x3D; \lim_{\Delta y \to 0} \frac{f(x_0, y_0 + \Delta y) - f(x_0, y_0)}{\Delta y}$$</p></li><li><p><strong>最后验证全微分定义式</strong><br>$$\lim_{(\Delta x, \Delta y) \to (0,0)} \frac{f(x_0 + \Delta x, y_0 + \Delta y) - f(x_0, y_0) - [f_x \Delta x + f_y \Delta y]}{\sqrt{\Delta x^2 + \Delta y^2}} &#x3D; 0$$<br>只有这个极限等于零时，我们才能最终判断函数在该点可微。</p></li><li><p><strong>（快速）充分条件定理</strong><br>如果偏导数 $f_x$ 和 $f_y$ 在该点的<strong>邻域内存在</strong>，且在<strong>该点连续</strong>，那么函数在该点一定可微。</p></li></ol><hr><h3 id="性质强度排序（从弱到强）"><a href="#性质强度排序（从弱到强）" class="headerlink" title="性质强度排序（从弱到强）"></a>性质强度排序（从弱到强）</h3><ul><li><strong>Lv.1 偏导数存在</strong>：只有十字路口是通的，其他地方可能是悬崖。</li><li><strong>Lv.2 连续</strong>：四面八方都连在一起，但可能有很多“尖角”。</li><li><strong>Lv.3 可微（全微分存在）</strong>：存在一个平滑的切平面，这是真正的“可导”。</li><li><strong>Lv.4 偏导数连续</strong>：不仅自己平滑，周围的坡度变化也非常丝滑。</li></ul><hr><p>隐函数存在定理</p><p>二元函数的基本形式（最常用）：</p><p>设方程为 $F(x, y) &#x3D; 0$，若在点 $P(x_0, y_0)$ 附近满足以下三个条件：<br>1.<em>函数值：</em>$F(x_0, y_0) &#x3D; 0$（点在曲线上）。<br>2.<em>连续可微：</em>$F(x, y)$ 在该点附近具有连续的一阶偏导数。<br>3.<em>非零偏导：</em>$F_y(x_0, y_0) \neq 0$（对想解出来的那个变量的偏导数不为 0）。</p><p>结论：</p><p>在 $(x_0, y_0)$ 的某个邻域内，方程能唯一确定一个单值连续函数 $y &#x3D; f(x)$。该函数满足 $y_0 &#x3D; f(x_0)$。该函数也是可微的，且其导数为：<br>                 $$\frac{dy}{dx} &#x3D; -\frac{F_x}{F_y}$$</p>]]></content>
     
     
     

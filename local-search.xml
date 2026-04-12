@@ -25,25 +25,6 @@
   
   
   <entry>
-    <title>有用的程序</title>
-    <link href="/2026/03/18/%E6%9C%89%E7%94%A8%E7%9A%84%E7%A8%8B%E5%BA%8F/"/>
-    <url>/2026/03/18/%E6%9C%89%E7%94%A8%E7%9A%84%E7%A8%8B%E5%BA%8F/</url>
-    
-    <content type="html"><![CDATA[<h1 id="有用的程序"><a href="#有用的程序" class="headerlink" title="有用的程序"></a>有用的程序</h1><blockquote><p>curl -sL <a href="https://raw.githubusercontent.com/jorgebucaran/nvm.fish/main/conf.d/nvm.fish">https://raw.githubusercontent.com/jorgebucaran/nvm.fish/main/conf.d/nvm.fish</a> | source</p><p>nvm install lts</p><p>npx hexo clean; and npx hexo g; and npx hexo s -p 5001</p><p>npx hexo g -d</p></blockquote><p>这是将新写的博客上传至网站的魔法程序<br>但是如果没有第一时间显示更新的话应该要按下Fn+F5，真是有趣😊</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>-程序</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>这是我的第一篇博客</title>
     <link href="/2026/03/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <url>/2026/03/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>

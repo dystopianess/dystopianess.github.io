@@ -4,24 +4,11 @@
   
   
   <entry>
-    <title></title>
-    <link href="/2026/04/12/%E9%9A%8F%E7%AC%94/"/>
-    <url>/2026/04/12/%E9%9A%8F%E7%AC%94/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>关于物理</title>
     <link href="/2026/04/12/%E5%85%B3%E4%BA%8E%E7%89%A9%E7%90%86/"/>
     <url>/2026/04/12/%E5%85%B3%E4%BA%8E%E7%89%A9%E7%90%86/</url>
     
-    <content type="html"><![CDATA[<h1 id="大学物理"><a href="#大学物理" class="headerlink" title="大学物理"></a>大学物理</h1><h2 id="力学"><a href="#力学" class="headerlink" title="力学"></a>力学</h2><p>以下是一些重要的公式：</p><p>1.切向加速度：$a_t &#x3D; \frac{dv}{dt}$<br>2.法向加速度：$a_n &#x3D; \frac{v^2}{R}$ ，其中$R$是曲率半径。</p><p>需要注意的是真正的加速度大小是它们两个的矢量和。</p><p>相对运动可以方便计算。</p><hr><p>牛顿第二定理：<br>    $$F &#x3D; \frac{dp}{dt}$$<br>惯性力的方向与加速度的方向相反·</p><p>考虑动量定理，可以算出链条下落高度和速度之间的关系(y为下落高度)<br>    $$v &#x3D; \sqrt{2&#x2F;3<em>g</em>y}$$</p><p>更为重要的是齐奥尔科夫斯基方程(在考虑重力是后面要减去gt)：<br>$$v_m &#x3D; v_0 + u \ln \left( \frac{m_0}{m} \right)$$</p><p>质心的计算：<br>$$\vec{R}<em>{cm} &#x3D; \frac{\sum</em>{i&#x3D;1}^{n} m_i \vec{r}<em>i}{\sum</em>{i&#x3D;1}^{n} m_i} &#x3D; \frac{1}{M} \sum_{i&#x3D;1}^{n} m_i \vec{r}_i$$</p><p>同时，角动量定理，$\vec{L} &#x3D; \vec{r} \times \vec{p}$可以发现一种同构：<br>$$M &#x3D; \frac{dL}{dt}$$</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="大学物理"><a href="#大学物理" class="headerlink" title="大学物理"></a>大学物理</h1><h2 id="力学"><a href="#力学" class="headerlink" title="力学"></a>力学</h2><p>以下是一些重要的公式：</p><p>1.切向加速度：$a_t &#x3D; \frac{dv}{dt}$<br>2.法向加速度：$a_n &#x3D; \frac{v^2}{R}$ ，其中$R$是曲率半径。</p><p>需要注意的是真正的加速度大小是它们两个的矢量和。</p><p>相对运动可以方便计算。</p><hr><p>牛顿第二定理：<br>$$F &#x3D; \frac{dp}{dt}$$<br>惯性力的方向与加速度的方向相反·</p><p>考虑动量定理，可以算出链条下落高度和速度之间的关系(y为下落高度)<br>$$v &#x3D; \sqrt{\frac{2}{3}gy}$$</p><p>更为重要的是齐奥尔科夫斯基方程(在考虑重力是后面要减去gt)：<br>$$v_m &#x3D; v_0 + u \ln \left( \frac{m_0}{m} \right)$$</p><p>质心的计算：<br>$$\vec{R}<em>{cm} &#x3D; \frac{\sum</em>{i&#x3D;1}^{n} m_i \vec{r}<em>i}{\sum</em>{i&#x3D;1}^{n} m_i} &#x3D; \frac{1}{M} \sum_{i&#x3D;1}^{n} m_i \vec{r}_i$$</p><h2 id="同时，角动量定理，-vec-L-vec-r-times-vec-p-可以发现一种同构：-M-frac-dL-dt"><a href="#同时，角动量定理，-vec-L-vec-r-times-vec-p-可以发现一种同构：-M-frac-dL-dt" class="headerlink" title="同时，角动量定理，$\vec{L} &#x3D; \vec{r} \times \vec{p}$可以发现一种同构：$$M &#x3D; \frac{dL}{dt}$$"></a>同时，角动量定理，$\vec{L} &#x3D; \vec{r} \times \vec{p}$可以发现一种同构：<br>$$M &#x3D; \frac{dL}{dt}$$</h2>]]></content>
     
     
     
@@ -36,7 +23,26 @@
   
   
   <entry>
-    <title>关于多元函数的连续性与可微性</title>
+    <title>随笔</title>
+    <link href="/2026/04/12/%E9%9A%8F%E7%AC%94/"/>
+    <url>/2026/04/12/%E9%9A%8F%E7%AC%94/</url>
+    
+    <content type="html"><![CDATA[<p>我很遗憾现在事情又变得那么糟糕，但我还是十分想念你</p><hr><p>日子总在一天天重复，但许多平庸的日子堆起来，便凑成了一段一生一次的时光。我根本不在乎重复的日子，想必世界也不在乎我。就像免疫系统有时会杀死自己，因为它来自种群。蜜蜂aculeation后会死，它虽是死了，也可以说，一个蜜蜂保卫不了自己的生活，一群蜜蜂就能了；一个人做不到的事，两个人就能做到了。可是谁来当我的另一个人呢？我生来也应是和众人一起保卫巢穴的，却没有人带我上正路。人生的容错率很大吗？为什么要允许将错就错的苟且，为什么要赐予我重伤不死的侥幸？因为祂不屑于杀死我啊，我一天天的重蹈覆辙对祂而言根本不重要，祂容许我心怀鬼胎的蛰伏、隐忍，给我以错觉：重复的日子能够变成一生一次的剑，刺杀祂，或令祂胆寒而杀死我。夜阑卧听风吹雨，铁马冰河入梦来，结局终归是悲凉的。</p><p>作者：Refrain<br>链接：<br><a href="https://www.zhihu.com/pin/2024534533043750792">https://www.zhihu.com/pin/2024534533043750792</a><br>来源：知乎</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Refrain</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>关于数学</title>
     <link href="/2026/03/19/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6/"/>
     <url>/2026/03/19/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6/</url>
     

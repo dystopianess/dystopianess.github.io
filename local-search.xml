@@ -17,6 +17,25 @@
   
   
   <entry>
+    <title>关于物理</title>
+    <link href="/2026/04/12/%E5%85%B3%E4%BA%8E%E7%89%A9%E7%90%86/"/>
+    <url>/2026/04/12/%E5%85%B3%E4%BA%8E%E7%89%A9%E7%90%86/</url>
+    
+    <content type="html"><![CDATA[<h1 id="大学物理"><a href="#大学物理" class="headerlink" title="大学物理"></a>大学物理</h1><h2 id="力学"><a href="#力学" class="headerlink" title="力学"></a>力学</h2><p>以下是一些重要的公式：</p><p>1.切向加速度：$a_t &#x3D; \frac{dv}{dt}$<br>2.法向加速度：$a_n &#x3D; \frac{v^2}{R}$ ，其中$R$是曲率半径。</p><p>需要注意的是真正的加速度大小是它们两个的矢量和。</p><p>相对运动可以方便计算。</p><hr><p>牛顿第二定理：<br>    $$F &#x3D; \frac{dp}{dt}$$<br>惯性力的方向与加速度的方向相反·</p><p>考虑动量定理，可以算出链条下落高度和速度之间的关系(y为下落高度)<br>    $$v &#x3D; \sqrt{2&#x2F;3<em>g</em>y}$$</p><p>更为重要的是齐奥尔科夫斯基方程(在考虑重力是后面要减去gt)：<br>$$v_m &#x3D; v_0 + u \ln \left( \frac{m_0}{m} \right)$$</p><p>质心的计算：<br>$$\vec{R}<em>{cm} &#x3D; \frac{\sum</em>{i&#x3D;1}^{n} m_i \vec{r}<em>i}{\sum</em>{i&#x3D;1}^{n} m_i} &#x3D; \frac{1}{M} \sum_{i&#x3D;1}^{n} m_i \vec{r}_i$$</p><p>同时，角动量定理，$\vec{L} &#x3D; \vec{r} \times \vec{p}$可以发现一种同构：<br>$$M &#x3D; \frac{dL}{dt}$$</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>物理</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>关于多元函数的连续性与可微性</title>
     <link href="/2026/03/19/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6/"/>
     <url>/2026/03/19/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6/</url>

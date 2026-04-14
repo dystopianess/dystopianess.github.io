@@ -27,7 +27,7 @@
 <meta property="og:description" content="大学物理 1. 曲线运动学在曲线运动中，加速度 $\vec{a}$ 被分解为两个相互垂直的分量：  切向加速度 ($a_t$)：反映速度大小变化的快慢。  $$a_t &#x3D; \frac{dv}{dt}$$ 法向加速度 ($a_n$)：反映速度方向变化的快慢。  $$a_n &#x3D; \frac{v^2}{R} \quad \text{($R$ 为曲率半径)}$$ 总加速度：  $$a">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2026-04-11T16:00:00.000Z">
-<meta property="article:modified_time" content="2026-04-12T13:08:49.872Z">
+<meta property="article:modified_time" content="2026-04-14T12:53:02.895Z">
 <meta property="article:author" content="DYSTOPIA">
 <meta property="article:tag" content="物理">
 <meta name="twitter:card" content="summary_large_image">
@@ -326,7 +326,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          996 字
+          1.5k 字
         
       </span>
     
@@ -337,7 +337,7 @@
         
         
         
-          9 分钟
+          13 分钟
         
       </span>
     
@@ -386,7 +386,7 @@
 <ul>
 <li><strong>切向加速度</strong> ($a_t$)：反映速度<strong>大小</strong>变化的快慢。<br>  $$a_t &#x3D; \frac{dv}{dt}$$</li>
 <li><strong>法向加速度</strong> ($a_n$)：反映速度<strong>方向</strong>变化的快慢。<br>  $$a_n &#x3D; \frac{v^2}{R} \quad \text{($R$ 为曲率半径)}$$</li>
-<li><strong>总加速度</strong>：<br>  $$a &#x3D; \sqrt{a_t^2 + a_n^2}$$</li>
+<li><strong>总加速度</strong>：<br>  $$a &#x3D; \sqrt{a_t^2 + a_n^2}$$<br>运动不要忘记了dW &#x3D; F * ds，而且尤其是带矢量i和j的，ds &#x3D; dx * i + dy * j，然后可以运算。</li>
 </ul>
 <hr>
 <h3 id="2-质点动力学与变质量系统"><a href="#2-质点动力学与变质量系统" class="headerlink" title="2. 质点动力学与变质量系统"></a>2. 质点动力学与变质量系统</h3><ul>
@@ -401,6 +401,7 @@
 <li><strong>角动量定义</strong>：<br>  $$\vec{L} &#x3D; \vec{r} \times \vec{p}$$</li>
 <li><strong>转动定律（同构性）</strong>：<br>  $$\vec{M} &#x3D; \frac{d\vec{L}}{dt}$$</li>
 </ul>
+<p>质心还是挺可爱的<br>合力等于零不代表角动量守恒，机械能守恒，但是可以说明动量守恒</p>
 <hr>
 <h3 id="4-刚体定轴转动对比"><a href="#4-刚体定轴转动对比" class="headerlink" title="4. 刚体定轴转动对比"></a>4. 刚体定轴转动对比</h3><p>刚体转动定律与平动定律在数学形式上具有完美的对称性：</p>
 <table>
@@ -443,8 +444,7 @@
 <td align="left">-</td>
 </tr>
 </tbody></table>
-<hr>
-<h3 id="5-流体力学"><a href="#5-流体力学" class="headerlink" title="5. 流体力学"></a>5. 流体力学</h3><ul>
+<h2 id="另外啊，如果有两个物体一起转动，不要忘记把两个物体的转动惯量相加，不要就算一个"><a href="#另外啊，如果有两个物体一起转动，不要忘记把两个物体的转动惯量相加，不要就算一个" class="headerlink" title="另外啊，如果有两个物体一起转动，不要忘记把两个物体的转动惯量相加，不要就算一个"></a>另外啊，如果有两个物体一起转动，不要忘记把两个物体的转动惯量相加，不要就算一个</h2><h3 id="5-流体力学"><a href="#5-流体力学" class="headerlink" title="5. 流体力学"></a>5. 流体力学</h3><ul>
 <li><strong>伯努利方程</strong>（同一流线能量守恒）：<br>  $$P + \frac{1}{2}\rho v^2 + \rho gh &#x3D; \text{Constant}$$<ul>
 <li>$P$：静压</li>
 <li>$\rho$：流体密度</li>
@@ -453,6 +453,8 @@
 </ul>
 </li>
 </ul>
+<hr>
+<h3 id="6-电磁学"><a href="#6-电磁学" class="headerlink" title="6.电磁学"></a>6.电磁学</h3><p>两个重要的公式：<br>圆环轴线上的电场公式：<br>    $$E &#x3D; \frac{1}{4\pi\epsilon_0} \frac{Qz}{(R^2 + z^2)^{3&#x2F;2}}$$<br>圆盘轴线上的电场公式：<br>    $$E &#x3D; \frac{\sigma}{2\epsilon_0} \left( 1 - \frac{z}{\sqrt{R^2 + z^2}} \right)$$<br>以及高斯定律：<br>    $$\oint_S \mathbf{E} \cdot d\mathbf{A} &#x3D; \frac{Q_{encl}}{\varepsilon_0}$$<br>通过选取合适的高斯面，由高斯定理可以推断出一个带点圆壳的内部电场为零，外部可以看成是点电荷，而一条无限长的带电直线周围的电场与该点到直线的距离成正比，还有无限大的带点平面，$E &#x3D; \frac{\sigma}{2\varepsilon_0}$，与距离无关。</p>
 
                 
               </div>

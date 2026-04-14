@@ -63,6 +63,25 @@
   
   
   <entry>
+    <title>关于电路</title>
+    <link href="/2026/03/19/%E5%85%B3%E4%BA%8E%E7%94%B5%E8%B7%AF/"/>
+    <url>/2026/03/19/%E5%85%B3%E4%BA%8E%E7%94%B5%E8%B7%AF/</url>
+    
+    <content type="html"><![CDATA[<h1 id="电路"><a href="#电路" class="headerlink" title="电路"></a>电路</h1><p>今天依旧学习了如何使用复数分析正弦式变化的电路量，要记住欧拉公式是cos（x）+i*sin（x），然后arctan是带着j的部分在上面当分子，就想象那个向量图就好了，a+bi嘛。然后把电感还有电容转换成带i的东西，和电阻结合的时候要记住是向量，用那个勾股定理。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>电路</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>这是我的第一篇博客</title>
     <link href="/2026/03/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <url>/2026/03/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
